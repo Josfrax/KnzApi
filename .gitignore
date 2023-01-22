@@ -1,0 +1,23 @@
+# System
+.DS_Store
+
+
+# Enviroment
+venv/
+.env
+
+
+# Python
+__pycache__/
+
+# Django
+migrations/
+
+
+# Visual Studio Code # 
+.vscode/* 
+
+
+accounts/
+# Documents
+issues.md
