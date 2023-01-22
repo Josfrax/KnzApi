@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # third party apps
     'rest_framework',
+
+    # project apps
+    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -121,4 +124,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Custom User model
+AUTH_USER_MODEL = 'accounts.User'
 

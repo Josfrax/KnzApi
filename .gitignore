@@ -18,6 +18,5 @@ migrations/
 .vscode/* 
 
 
-accounts/
 # Documents
 issues.md
