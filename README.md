@@ -1,5 +1,5 @@
 # Kanz Api 
-Api for Kanz
+Api for Business Inteligen of Kanz.
 
 
 
