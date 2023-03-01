@@ -3,6 +3,7 @@ from django.contrib.auth.models import AbstractUser
 
 from .managers import UserManager
 
+
 class User(AbstractUser):
     username = None
     groups = None
@@ -10,7 +11,9 @@ class User(AbstractUser):
 
     first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=20)
-    email = models.EmailField(max_length=100, unique=True)
+    phone = models.CharField(max_length=15, unique=True, null=True)
+    email = models.EmailField(max_length=100, unique=True, null=False)
+
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
